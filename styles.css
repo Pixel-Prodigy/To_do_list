@@ -54,8 +54,8 @@ button:hover {
   height: 40px;
   transition: background-color 0.3s ease;
 }
-.new_box_p{
-    margin-bottom: 20px;
+.new_box_p {
+  margin-bottom: 20px;
 }
 
 .cross {
@@ -65,21 +65,21 @@ button:hover {
   padding: 0 20px;
   transition: background-color 0.3s ease;
 }
-.new_box_right{
-display: flex;
-align-items: center;
-margin-left: 20px;
+.new_box_right {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
 }
 .hide_svg > svg {
   width: 25px;
   stroke-width: 2.5;
-
+  stroke: white;
 }
-.hide_svg{
-    display: none;
+.hide_svg {
+  display: none;
 }
-.show_svg{
-    display: block;
+.show_svg {
+  display: block;
 }
 .cross:hover > svg {
   stroke: white;

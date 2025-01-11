@@ -50,6 +50,7 @@ button.addEventListener("click", () => {
             });
             const p = newBox.querySelector(".new_box_p");
             p.style.textDecoration = "line-through";
+            p.style.color = "white"
             const hideSvg = newBox.querySelector("span");
             hideSvg.classList.add("show_svg");
         } else {
@@ -73,6 +74,8 @@ button.addEventListener("click", () => {
             }
             const p = newBox.querySelector(".new_box_p");
             p.style.textDecoration = "none";
+            p.style.color = "black"
+
             const hideSvg = newBox.querySelector("span");
             hideSvg.classList.remove("show_svg");
         }
